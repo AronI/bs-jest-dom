@@ -12,6 +12,16 @@ $ yarn add --dev bs-jest-dom
 $ npm install --save-dev bs-jest-dom
 ```
 
+If you don't have `@glennsl/bs-jest` already installed run
+
+```sh
+$ yarn add --dev @glennsl/bs-jest
+
+# or..
+
+$ npm install --save-dev @glennsl/bs-jest
+```
+
 ## Usage
 
 #### Add to `bsconfig.json`
@@ -83,6 +93,7 @@ See [`src/__tests__`](src/__tests__) for some examples.
 ```sh
 $ git clone https://github.com/wyze/bs-jest-dom.git
 $ cd bs-jest-dom
+$ yarn add @glennsl/bs-jest # or `npm install @glennsl/bs-jest`
 $ yarn # or `npm install`
 ```
 
